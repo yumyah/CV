@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
+}
+.main .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(238, 230, 230, 0.7),rgb(0,0,0,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.main .container .navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.main .container .navbar .bibox {
+    width: 50px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+.main .container .navbar .bimenu {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.main .container .navbar nav{
+    flex: 1;
+    text-align: right;
+}
+.main .container .navbar nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 14px;
+}
+.main .container .navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10;
+}
+.main .container .row .me {
+    width: 100px;
+    height: auto;
+    border-radius: 20%;
+}
+.main .container .row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+.main .container .row .col{
+    flex-basis: 40%;
+}
+.main .container .row .col h4{
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;    
+}
+.main .container .row .col p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 10px; 
+}
+.main .container .me{
+    width: 100px;
+    height: auto;
+    border-radius: 25%;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+.main .container-fluid{
+    width: 100%;
+    height: 100vh;
+}
+.main .container-fluid img{
+    height: 100vh;
+    width: 50%;
+}
+.main .container1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(238, 230, 230, 0.7),rgb(0,0,0,0.7)),url(bg2.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.main .container1 .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    top: 550px;
+    position: absolute;
+}
+.main .container1 .row h4{
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1.6rem;
+     letter-spacing: 1px;
+     font-weight: 700;
+}
+.main .container1 .row .box1,.box2,.box3,.box4{
+    width: 100px;
+    height: 100px;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.main .container1 .row .box1 {
+    background-image: url(EP.png)
+}
+.main .container1 .row .box2 {
+    background-image: url(ja.png)
+}
+.main .container1 .row .box3 {
+    background-image: url(da.png)
+}
+.main .container1 .row .box4 {
+    background-image: url(chat.png)
+}
+.main .container1 p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px; 
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+}
+.main .container2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(238, 230, 230, 0.7),rgb(0,0,0,0.7)),url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.main .container2 p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px; 
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+}
+.main .container2 .row .fb,.email,.call,.ig{
+    width: 100px;
+    height: 100px;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.main .container2 .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    top: 900px;
+    position: absolute;
+}
+.main .container2 .row h4{
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 1px;
+    font-size: 1rem;
+     letter-spacing: 1px;
+     font-weight: 700;
+}
+.main .container2 .row svg{
+    padding-left: 11px;
+    width: 45px;
+    height: 45px;
+}
